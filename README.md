@@ -8,7 +8,6 @@ As I told before, the only thing you will need is to fork this repository. Follo
 # Steps
 If you need to change anything from User Model, be adding new columns, adding to needed groups to the user.
 
-Go to `core.models` and add any column in `User` and change the `UserManager` to accept the modifications you did, and run `python manage.py makemigrations`. And create new tests for that in `core.tests.test_models`.
-If you need to change anything from admin page, go to `core.admin`.
+Go to `core.models` and change in the `class User` and have fun.
 
 After doing everything, just run the docker container and go create your api.
